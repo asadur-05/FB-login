@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+.img{
+    height: 50px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    cursor: pointer;
+    margin-bottom: 45px;
+}
+.page{
+    border: 2px solid black;
+    height: 420px;
+    width: 400px;
+    background-color: #fff;
+    padding: 1px 0 14px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#check{
+   text-align: start;
+   margin-left: 21px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #606770;
+   display: flex;
+}
+
+#para{
+    margin: 30px;
+    font-size: 18px;
+    font-family:  Helvetica,Arial, sans-serif;
+}
+
+#mail{
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 330px;
+    margin: 0 0 10px 0;
+    border-radius: 5px;
+    border: 1px solid grey;
+    color: black;
+    cursor: pointer;
+}
+#pass{
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 330px;
+    margin: 0 0 10px 0;
+    border-radius: 5px;
+    border: 1px solid grey;
+    color: black;
+    cursor: pointer;
+}
+
+#btn{
+    padding: 12px 16px;
+    font-size: 20px ;
+    font-family: Helvetica, Arial,  sans-serif;
+    font-weight: bold;
+    width: 360px;
+    color: white;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 5px;
+    margin: 4px 0 20px 0;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: rgb(16, 104, 218);
+}
+
+#forget{
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 15px;
+    font-family:  Helvetica, Arial, sans-serif;
+}
+
+#forget:hover{
+    text-decoration: 1px solid #1877f2 underline;
+}
+
+#or{
+    color: #96999e;
+    font-size: 13px;
+    margin: 15px 0 15px 0;
+}
+
+#New{
+    padding: 14px 16px;
+    font-size: 17px ;
+    font-family: Helvetica, Arial,  sans-serif;
+    font-weight: bold;
+    width: 200px;
+    color: white;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 5px;
+    margin: 4px 0 20px 0;
+    cursor: pointer;
+}
+#New a{
+    text-decoration: none;
+    color: white;
+}
+
+#New:hover{
+    background-color: #399d24;
+}
+#New:active{
+    background-color: #2f811e;
+}
+

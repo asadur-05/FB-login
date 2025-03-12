@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up for Facebook</title>
+    <link rel="icon" href="icon.png" type="ico">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="img">
+        <img src="facebook.png" alt="fb image" height="90px" />
+      </div>
+      <div class="page">
+        <p class="para">Creat a new Account</p>
+        <p class="para2">It's quick and easy.</p>
+        <hr />
+        <input type="text" placeholder="First Name" id="input1" class="input1" />
+        <input type="text" placeholder="Surname" id="input1" class="input2"/>
+        <br />
+        <div class="dob">
+          <label for="dob"
+            >Date of birth<i class="fa-solid fa-circle-question"></i
+          ></label>
+          <br />
+          <select name="dob" id="date">
+            <option value=""></option>
+          </select>
+          <select name="dob" id="date2">
+            <option value=""></option>
+          </select>
+          <select name="dob" id="date3">
+            <option value=""></option>
+          </select>
+        </div>
+        <br />
+          <div class="gender">
+            <label class="gender-label">
+              Gender
+              <span class="info-icon">
+                <i class="fa-solid fa-circle-question"></i
+              ></span>
+            </label>
+            <div class="radio-group">
+              <label class="radio-button">
+                <input type="radio" name="gender" value="female"  class="radio1"/>
+                <span>Female</span>
+              </label>
+
+              <label class="radio-button">
+                <input type="radio" name="gender" value="male" class="radio2" />
+                <span>Male</span>
+              </label>
+
+              <label class="radio-button">
+                <input type="radio" name="gender" value="custom" class="radio3" />
+                <span>Custom</span>
+              </label>
+            </div>
+          </div>
+        <br />
+        <input type="text" placeholder="Mobile number or email address" id="mail" class="input3" />
+        <br />
+        <input type="password" placeholder="New Password" id="pass"  class="input4"/>
+        <div id="check"><input type="checkbox" > Show password</div>
+        <p class="para3">
+          People who use our service may have uploaded your contact information
+          to Facebook.
+          <a href="https://www.facebook.com/help/637205020878504"
+            >Learn more.</a
+          >
+        </p>
+        <p class="para4">
+          By clicking Sign Up, you agree to our
+          <a
+            href="https://www.facebook.com/legal/terms/update"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Terms</a
+          >,
+          <a
+            href="https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Privacy Policy </a
+          >and
+          <a
+            href="https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0"
+            target="_blank"
+            >Cookies Policy</a
+          >. You may receive SMS notifications from us and can opt out at any
+          time.
+        </p>
+        <button id="btn">Sig Up</button>
+        <p class="para5"><a href="index.html">Already have an account?</a></p>
+      </div>
+    </div>
+    <script src="script2.js"></script>
+  </body>
+</html>

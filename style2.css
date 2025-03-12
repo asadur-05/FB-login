@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+.img{
+    height: 50px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    cursor: pointer;
+    margin-bottom: 45px;
+}
+.page{
+    border: 2px solid black;
+    height: auto;
+    width: 450px;
+    background-color: #fff;
+    padding: 1px 0 14px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.para{
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #1c1e21;
+}
+.para2{
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #606770;
+    margin-bottom: 10px;
+}
+hr{
+    margin-bottom: 20px;
+    color: #606770;
+}
+
+#input1{
+    height: 10px;
+    width: 170px;
+    padding: 11px;
+    border-radius: 5px;
+    border: 1px solid #606770;
+    font-size: 15px;
+}
+.dob{
+    text-align: start;
+    margin: 6px 0 0px 30px;
+}
+.dob label{
+    margin: 2px 0 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #606770;
+}
+
+.dob label i{
+    margin-left: 5px;
+}
+
+select{
+    height: 35px;
+    width: 127px;
+    padding: 0 20px 0 8px;
+    border-radius: 5px;
+    border: 1px solid #606770;
+    
+}
+
+.gender{
+    text-align: start;
+    margin: 6px 0 0px 30px;
+}
+.gender-label{
+    margin: 2px 0 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #606770;
+}
+
+.info-icon {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.radio-group {
+    display: flex;
+    gap: 10px; 
+  }
+
+ .radio-button{
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+    width: 127px;
+    margin-right: 25px;
+ }
+ input{
+    accent-color: blue;
+ }
+
+ #mail,#pass{
+   width: 370px;
+   height: 39.6px;
+   margin-bottom: 13px;
+   padding: 0 11px 0px 11px;
+   border-radius: 5px;
+   border: 1px solid #ccc;
+ }
+ #check{
+    text-align: start;
+    margin-left: 31px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #606770;
+    display: flex;
+ }
+ .para3{
+    text-align: start;
+    margin: 0 20px 10px 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+ }
+ .para3 a{
+    text-decoration: none;
+    color: rgb(0, 0, 147);
+ }
+ .para3 a:hover{
+    text-decoration: 1px underline;
+ }
+ .para4{
+    text-align: start;
+    margin-left: 28px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin-bottom: 25px;
+ }
+ .para4 a{
+    text-decoration: none;
+    color: rgb(0, 0, 147);
+ }
+ .para4 a:hover{
+    text-decoration: 1px underline;
+ }
+
+
+ #btn{
+    height: 35px;
+    width: 190px;
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    cursor: pointer;
+ }
+ #btn:hover{
+    color: #cbcbcb;
+ }
+.para5 a{
+    text-decoration: none;
+    color: #1877f2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
